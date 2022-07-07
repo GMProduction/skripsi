@@ -24,7 +24,15 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('auth.login');
+    return view('welcomepage');
+});
+
+Route::get('/tentang-kami', function () {
+    return view('tentangkami');
+});
+
+Route::get('/hubungi-kami', function () {
+    return view('hubungikami');
 });
 
 Route::get('/admin', function () {
