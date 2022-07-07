@@ -1,10 +1,22 @@
 //WARNA
-$primary-color: #66b032;
-$primary-soft-color1: #7dd83c;
-$background-primary-color: #e1ffcb;
+$primary-color: #04a3df;
+$primary-soft-color1: #6cd8ff;
+$background-primary-color: #ddf6ff;
 
 $accent-color: #fb9802;
 $accent-color2: #db8400;
+
+//WARNA
+// $primary-color: #04a3df;
+// $primary-color-d5: #005270;
+// $primary-soft-color1: #04a3df;
+// $background-primary-color: #e1ffcb55;
+
+// $background-transparant-color: #fff5;
+
+// $accent-color: #f7941d;
+// $accent-color2: #db8400;
+
 
 $danger-color: #f72828;
 $danger-soft-color1: #be2d2d;
@@ -417,7 +429,7 @@ input.form-control {
     cursor: pointer;
 
     &.sml {
-        padding: 5px 5px;
+        padding: 5px 10px;
         font-size: 0.8rem;
         line-height: 0.8rem;
 
@@ -458,7 +470,7 @@ input.form-control {
     }
 
     &.sml {
-        padding: 5px 5px;
+        padding: 5px 10px;
         font-size: 0.8rem;
         line-height: 0.8rem;
 
@@ -498,7 +510,7 @@ input.form-control {
     }
 
     &.sml {
-        padding: 5px 5px;
+        padding: 5px 10px;
         font-size: 0.8rem;
         line-height: 0.8rem;
 
@@ -538,7 +550,7 @@ input.form-control {
     }
 
     &.sml {
-        padding: 5px 5px;
+        padding: 5px 10px;
         font-size: 0.8rem;
         line-height: 0.8rem;
 
@@ -578,7 +590,7 @@ input.form-control {
     }
 
     &.sml {
-        padding: 5px 5px;
+        padding: 5px 10px;
         font-size: 0.8rem;
         line-height: 0.8rem;
 
@@ -618,7 +630,7 @@ input.form-control {
     }
 
     &.sml {
-        padding: 5px 5px;
+        padding: 5px 10px;
         font-size: 0.8rem;
         line-height: 0.8rem;
 
@@ -659,7 +671,7 @@ input.form-control {
     }
 
     &.sml {
-        padding: 5px 5px;
+        padding: 5px 10px;
         font-size: 0.8rem;
         line-height: 0.8rem;
     }
@@ -857,4 +869,20 @@ textarea.form-floating:before {
 .form-floating textarea.form-control {
     padding-top: 32px; /* height of pseudo element */
     min-height: 80px; /* not relevant */
+}
+
+table.dataTable.table-striped>tbody>tr.odd.selected>* {
+    color: black;
+    box-shadow: inset 0 0 0 9999px rgb(13 110 253 / 20%) !important;
+}
+
+table.dataTable.table-striped>tbody>tr.selected>* {
+    color: black;
+    box-shadow: inset 0 0 0 9999px rgb(13 110 253 / 20%) !important;
+}
+
+.enselect{
+    tr{
+        cursor: pointer;
+    }
 }

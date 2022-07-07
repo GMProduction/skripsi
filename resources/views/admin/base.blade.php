@@ -91,12 +91,12 @@
                 </li> --}}
 
 
-                <li class="nav-item">
+                {{-- <li class="nav-item">
                     <a class="nav-link menu @if ($sidebar == 'beranda') active @endif " href="/admin">
                         <i class="material-icons menu-icon">home</i>
                         <p class="menu-text">Beranda</p>
                     </a>
-                </li>
+                </li> --}}
 
                 <li class="nav-item">
                     <a class="nav-link menu @if ($sidebar == 'user') active @endif" href="/admin/user">
@@ -105,7 +105,27 @@
                     </a>
                 </li>
 
-                
+                <li class="nav-item">
+                    <a class="nav-link menu @if ($sidebar == 'tipe') active @endif" href="/admin/tipe">
+                        <i class="material-icons menu-icon">type_specimen</i>
+                        <p class="menu-text">Tipe Layanan</p>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link menu @if ($sidebar == 'kota') active @endif" href="/admin/kota">
+                        <i class="material-icons menu-icon">location_city</i>
+                        <p class="menu-text">Kota</p>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link menu @if ($sidebar == 'harga') active @endif" href="/admin/harga">
+                        <i class="material-icons menu-icon">payments</i>
+                        <p class="menu-text">Harga</p>
+                    </a>
+                </li>
+{{--
                 <li class="nav-item">
                     <a class="nav-link menu @if ($sidebar == 'klinik') active @endif" href="/admin/klinik">
                         <i class="material-icons menu-icon">emergency</i>
@@ -118,7 +138,7 @@
                         <i class="material-icons menu-icon">content_paste</i>
                         <p class="menu-text">Data Barang</p>
                     </a>
-                </li>
+                </li> --}}
 
                 {{-- <li class="nav-item has-submenu">
                     <a class="nav-link menu @if ($sidebar == 'master') active @endif" href="#">
@@ -138,12 +158,12 @@
                     </ul>
                 </li> --}}
 
-                <li class="nav-item">
+                {{-- <li class="nav-item">
                     <a class="nav-link menu @if ($sidebar == 'transaksi') active @endif" href="/admin/transaksi">
                         <i class="material-icons menu-icon">sync</i>
                         <p class="menu-text">Transaksi</p>
                     </a>
-                </li>
+                </li> --}}
 
                 {{-- <li class="nav-item has-submenu">
                     <a class="nav-link menu" href="#">

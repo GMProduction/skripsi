@@ -1,9 +1,9 @@
 <?php
 
 use App\Http\Controllers\BerandaController;
-use App\Http\Controllers\KlinikController;
-use App\Http\Controllers\TransaksiController;
-use App\Http\Controllers\LaporanPesananController;
+use App\Http\Controllers\KotaController;
+use App\Http\Controllers\TipeController;
+use App\Http\Controllers\HargaController;
 use App\Http\Controllers\DaftarController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\BarangController;
@@ -35,8 +35,20 @@ Route::get('/hubungi-kami', function () {
     return view('hubungikami');
 });
 
+Route::get('/karir', function () {
+    return view('karir');
+});
+
+Route::get('/berita', function () {
+    return view('berita');
+});
+
+Route::get('/layanan', function () {
+    return view('layanan');
+});
+
 Route::get('/admin', function () {
-    return view('login.beranda');
+    return view('login.user');
 });
 
 
@@ -44,9 +56,12 @@ Route::get('/admin/user', function () {
     return view('admin.user');
 });
 
-Route::get('/admin', [BerandaController::class, 'index']);
+Route::get('/admin', [UserController::class, 'index']);
 Route::get('/admin/beranda', [BerandaController::class, 'index']);
 Route::get('/admin/user', [UserController::class, 'index']);
+Route::get('/admin/tipe', [TipeController::class, 'index']);
+Route::get('/admin/kota', [KotaController::class, 'index']);
+Route::get('/admin/harga', [HargaController::class, 'index']);
 Route::get('/admin/klinik', [KlinikController::class, 'index']);
 Route::get('/admin/barang', [BarangController::class, 'index']);
 Route::get('/admin/transaksi', [TransaksiController::class, 'index']);

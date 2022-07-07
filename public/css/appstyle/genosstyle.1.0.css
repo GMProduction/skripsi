@@ -186,20 +186,20 @@ input.form-control {
   transition: ease-in-out 0.5s;
 }
 .sidebar .menu.active {
-  background-color: #e1ffcb;
+  background-color: #ddf6ff;
   transition: ease-in-out 0.2s;
-  color: #66b032 !important;
+  color: #04a3df !important;
 }
 .sidebar .menu.active .menu-icon {
-  color: #66b032;
+  color: #04a3df;
 }
 .sidebar .menu.active .menu-text {
-  color: #66b032;
+  color: #04a3df;
 }
 .sidebar .menu:hover {
   background-color: #f1f1f1;
   transition: ease-in-out 0.2s;
-  color: #66b032 !important;
+  color: #04a3df !important;
 }
 .sidebar .submenu {
   padding-left: 0.5rem !important;
@@ -235,15 +235,15 @@ input.form-control {
   transition: ease-in-out 0.5s;
 }
 .sidebar .submenus:hover {
-  background-color: #e1ffcb;
+  background-color: #ddf6ff;
   transition: ease-in-out 0.2s;
-  color: #66b032 !important;
+  color: #04a3df !important;
 }
 .sidebar .submenus:hover .menu-icon {
-  color: #66b032;
+  color: #04a3df;
 }
 .sidebar .submenus:hover .menu-text {
-  color: #66b032;
+  color: #04a3df;
 }
 .sidebar.ciut {
   width: 60px;
@@ -309,7 +309,7 @@ input.form-control {
 }
 
 .dropdown-menu.custom .dropdown-item:hover {
-  background-color: #e1ffcb !important;
+  background-color: #ddf6ff !important;
 }
 
 .form-label {
@@ -323,14 +323,14 @@ input.form-control {
   display: block;
   text-align: center;
   border: none;
-  background-color: #66b032;
+  background-color: #04a3df;
   color: white;
   border-radius: 5px;
   padding: 10px;
   cursor: pointer;
 }
 .btn-utama.sml {
-  padding: 5px 5px;
+  padding: 5px 10px;
   font-size: 0.8rem;
   line-height: 0.8rem;
 }
@@ -364,7 +364,7 @@ input.form-control {
   display: block;
 }
 .btn-success.sml {
-  padding: 5px 5px;
+  padding: 5px 10px;
   font-size: 0.8rem;
   line-height: 0.8rem;
 }
@@ -397,7 +397,7 @@ input.form-control {
   display: block;
 }
 .btn-danger.sml {
-  padding: 5px 5px;
+  padding: 5px 10px;
   font-size: 0.8rem;
   line-height: 0.8rem;
 }
@@ -418,8 +418,8 @@ input.form-control {
   display: flex;
   text-align: center;
   border: none;
-  background-color: #e1ffcb;
-  color: #66b032;
+  background-color: #ddf6ff;
+  color: #04a3df;
   border-radius: 5px;
   padding: 10px;
   font-weight: bold;
@@ -430,7 +430,7 @@ input.form-control {
   display: block;
 }
 .btn-utama-soft.sml {
-  padding: 5px 5px;
+  padding: 5px 10px;
   font-size: 0.8rem;
   line-height: 0.8rem;
 }
@@ -442,7 +442,7 @@ input.form-control {
 }
 .btn-utama-soft:hover {
   transition: all 0.5s;
-  color: #7dd83c;
+  color: #6cd8ff;
 }
 
 .btn-danger-soft {
@@ -463,7 +463,7 @@ input.form-control {
   display: block;
 }
 .btn-danger-soft.sml {
-  padding: 5px 5px;
+  padding: 5px 10px;
   font-size: 0.8rem;
   line-height: 0.8rem;
 }
@@ -496,7 +496,7 @@ input.form-control {
   display: block;
 }
 .btn-accent.sml {
-  padding: 5px 5px;
+  padding: 5px 10px;
   font-size: 0.8rem;
   line-height: 0.8rem;
 }
@@ -530,7 +530,7 @@ input.form-control {
   display: block;
 }
 .btn-success-soft.sml {
-  padding: 5px 5px;
+  padding: 5px 10px;
   font-size: 0.8rem;
   line-height: 0.8rem;
 }
@@ -577,7 +577,7 @@ td img {
   all: unset;
   cursor: pointer;
   font-weight: bold;
-  color: #66b032;
+  color: #04a3df;
 }
 
 .dropdown-item {
@@ -597,7 +597,7 @@ td img {
 }
 
 .bg-accent-color {
-  background-color: #e1ffcb;
+  background-color: #ddf6ff;
 }
 
 .pinggiran-bunder {
@@ -655,14 +655,14 @@ td img {
 
 .page-item.active .page-link {
   color: white !important;
-  background-color: #66b032 !important;
-  border-color: #66b032 !important;
+  background-color: #04a3df !important;
+  border-color: #04a3df !important;
 }
 
 .page-link {
   position: relative;
   display: block;
-  color: #66b032 !important;
+  color: #04a3df !important;
   text-decoration: none;
   background-color: #fff;
   border: 1px solid #dee2e6;
@@ -674,13 +674,13 @@ tbody.select {
 }
 
 table.dataTable > tbody.select > tr.selected > * {
-  box-shadow: inset 0 0 0 9999px #e1ffcb;
+  box-shadow: inset 0 0 0 9999px #ddf6ff;
   color: black;
   cursor: default;
 }
 
 table.dataTable.table-striped > tbody.select > tr.odd.selected > * {
-  box-shadow: inset 0 0 0 9999px #e1ffcb;
+  box-shadow: inset 0 0 0 9999px #ddf6ff;
   color: black;
   cursor: default;
 }
@@ -717,4 +717,18 @@ textarea.form-floating:before {
   /* height of pseudo element */
   min-height: 80px;
   /* not relevant */
+}
+
+table.dataTable.table-striped > tbody > tr.odd.selected > * {
+  color: black;
+  box-shadow: inset 0 0 0 9999px rgba(13, 110, 253, 0.2) !important;
+}
+
+table.dataTable.table-striped > tbody > tr.selected > * {
+  color: black;
+  box-shadow: inset 0 0 0 9999px rgba(13, 110, 253, 0.2) !important;
+}
+
+.enselect tr {
+  cursor: pointer;
 }

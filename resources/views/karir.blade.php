@@ -9,7 +9,7 @@
 
 
         <p class="title" data-aos="fade-right" data-aos-anchor-placement="center-bottom" data-aos-duration="300">
-            Tentang Kami </p>
+            Karir </p>
         <p class="sub" data-aos="fade-left" data-aos-anchor-placement="center-bottom" data-aos-delay="200"
             data-aos-duration="600">Raja Sulaiman Express</p>
         <p class="isi" data-aos="fade-right" data-aos-anchor-placement="center-bottom" data-aos-delay="400"
@@ -23,20 +23,12 @@
         <div class="layanan-kami mt-5">
 
             <p class="judul-content mb-5" data-aos="fade-down" data-aos-easing="ease-in-back" data-aos-delay="0"
-                data-aos-duration="300">Raja Sulaiman Forwarding dan Logistik</p>
+                data-aos-duration="300">Karir di Raja Sulaiman Express</p>
 
                 <p class="mb-5" style="text-align: justify;
                 text-justify: inter-word;"
                 data-aos="fade-up" data-aos-easing="ease-in-back" data-aos-delay="0" data-aos-duration="500">
-                PT.
-                Galatia Expressindo International Freights & Forwarding menawarkan layanan pengiriman barang baik
-                impor maupun ekspor secara global. Dengan jaringan mitra dan agen yang luas di seluruh dunia, kami
-                dapat memberikan harga terbaik dan pilihan rute harga paling efisien.
-
-                Sebagai salah satu perusahaan International Freight Forwarder terkemuka di Indonesia yang telah
-                berpengalaman melayani jasa perdagangan ekspor dan impor lebih dari 15 tahun. Kami senantiasa
-                beradaptasi dengan kebutuhan pasar sehingga menjadi International Freight Forwarder terbaik saat ini
-                yang selalu berkomitmen untuk melebihi harapan para customer kami.</p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
         </div>
     </div>
 

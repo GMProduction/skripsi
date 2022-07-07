@@ -234,18 +234,7 @@
         </div>
     </div>
 
-    <div class="dapatkan-penawaran pb-5">
-        <div class="image-as-bg" style="background-image: url({{ asset('images/local/dapatkanpenawaranbg.jpg') }})">
-        </div>
-        <img class="mbake" src="{{ asset('images/local/mbake.png') }}" />
 
-        <div class="form-penawan" data-aos="fade-up" data-aos-easing="ease-in-back" data-aos-delay="0"
-            data-aos-duration="1000">
-            <p class="judul-content">Dapatkan Penawaran</p>
-            <a href="#"><img class="wa" src="{{ asset('images/local/wa.png') }}" /></a>
-
-        </div>
-    </div>
 
     <div class="artikel-terbaru ">
         <div class="container ">

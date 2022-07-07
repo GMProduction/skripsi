@@ -49,11 +49,22 @@
                         </div>
                         <div class="d-block ms-auto mb-2">
                             <a class="text-sm ms-2   navitem" href="/">HOME</a>
-                            <a class=" text-sm ms-2   navitem" href="/gallery">LAYANAN KAMI</a>
-                            <a class=" text-sm ms-2   navitem" href="/article">TENTANG KAMI</a>
-                            <a class=" text-sm ms-2   navitem" href="/contact">HUBUNGI KAMI</a>
-                            <a class=" text-sm ms-2   navitem" href="/contact">KARIR</a>
-                            <a class=" text-sm ms-2   navitem" href="/contact">BERITA</a>
+                            <li class="nav-item dropdown d-inline">
+                                <a class=" text-sm ms-2  dropdown-toggle navitem" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false" href="/gallery">LAYANAN KAMI</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="/layanan">Pengiriman Udara</a></li>
+                                    <li><a class="dropdown-item" href="#">Pengiriman Laut</a></li>
+                                    <li><a class="dropdown-item" href="#">Pengiriman Darat</a></li>
+                                    <li><a class="dropdown-item" href="#">Bea Cukai</a></li>
+                                    <li><a class="dropdown-item" href="#">Jasa Pergudangan</a></li>
+                                    <li><a class="dropdown-item" href="#">Project Handling</a></li>
+                                </ul>
+                            </li>
+                            <a class=" text-sm ms-2   navitem" href="/tentang-kami">TENTANG KAMI</a>
+                            <a class=" text-sm ms-2   navitem" href="/hubungi-kami">HUBUNGI KAMI</a>
+                            <a class=" text-sm ms-2   navitem" href="/karir">KARIR</a>
+                            <a class=" text-sm ms-2   navitem" href="/berita">BERITA</a>
                         </div>
 
                     </div>
@@ -63,6 +74,20 @@
 
         <div class="content-wrapper">
             @yield('content')
+        </div>
+
+        <div class="dapatkan-penawaran pb-5">
+            <div class="image-as-bg"
+                style="background-image: url({{ asset('images/local/dapatkanpenawaranbg.jpg') }})">
+            </div>
+            <img class="mbake" src="{{ asset('images/local/mbake.png') }}" />
+
+            <div class="form-penawan" data-aos="fade-up" data-aos-easing="ease-in-back" data-aos-delay="0"
+                data-aos-duration="1000">
+                <p class="judul-content">Dapatkan Penawaran</p>
+                <a href="#"><img class="wa" src="{{ asset('images/local/wa.png') }}" /></a>
+
+            </div>
         </div>
 
 

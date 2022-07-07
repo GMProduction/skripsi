@@ -17,15 +17,19 @@
                     <table id="table_piutang" class="table table-striped" style="width:100%">
                         <thead>
                             <tr>
+                                <th>Nama</th>
+                                <th>Alamat</th>
+                                <th>No_HP</th>
                                 <th>Username</th>
-                                <th>Role</th>
                                 <th>Action</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td>Tiger Nixon</td>
-                                <td>Admin</td>
+                                <td>Solo</td>
+                                <td>0000</td>
+                                <td>Tiger</td>
                                 <td class="d-flex">
                                     <a class="btn-success sml rnd me-1">Edit <i
                                             class="material-icons menu-icon ms-2">edit</i></a>
@@ -33,15 +37,7 @@
                                             class="material-icons menu-icon ms-2">delete</i></a>
                                 </td>
                             </tr>
-                            <tr>
-                                <td>Garrett Winters</td>
-                                <td>Admin</td>
-                                <td class="d-flex"><a class="btn-success sml rnd me-1">Edit <i
-                                            class="material-icons menu-icon ms-2">edit</i></a>
-                                    <a class="btn-danger sml rnd ">Hapus <i
-                                            class="material-icons menu-icon ms-2">delete</i></a>
-                                </td>
-                            </tr>
+
 
                         </tbody>
 
@@ -62,17 +58,27 @@
                     <div class="modal-body">
 
 
-                        <label for="role" class="form-label">Role</label>
-                        <select class="form-select mb-3" aria-label="Default select example" id="role" name="role">
-                            <option selected>Pilih Role</option>
-                            <option value="admin">Admin</option>
-                            <option value="pimpinan">Pimpinan</option>
-                        </select>
-
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="nama" name="nama" placeholder="Jhony">
+                            <label for="nama" class="form-label">Nama</label>
+                        </div>
 
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control" id="nama" name="username" placeholder="Jhony">
-                            <label for="nama" class="form-label">Username</label>
+                            <input type="text" class="form-control" id="alamat" name="alamat" placeholder="Jhony">
+                            <label for="alamat" class="form-label">Alamat</label>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="no_hp" name="no_hp" placeholder="Jhony">
+                            <label for="no_hp" class="form-label">No Hp</label>
+                        </div>
+
+
+
+                        <hr>
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="username" name="username" placeholder="Jhony">
+                            <label for="username" class="form-label">Username</label>
                         </div>
                         <div class="form-floating mb-3">
                             <input type="password" class="form-control " id="password" name="password" placeholder="Jhony">
